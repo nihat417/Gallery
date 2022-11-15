@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StaticFiles\Images\icons8-go-back-80.png" />
+    <None Remove="StaticFiles\Images\icons8-last-100.png" />
+    <None Remove="StaticFiles\Images\icons8-list-view-100.png" />
+    <None Remove="StaticFiles\Images\icons8-pause-button-100.png" />
+    <None Remove="StaticFiles\Images\icons8-play-button-circled-90.png" />
+    <None Remove="StaticFiles\Images\icons8-previous-100.png" />
+    <None Remove="StaticFiles\Images\icons8-widescreen-52.png" />
+    <None Remove="StaticFiles\Images\im1.jpg" />
+    <None Remove="StaticFiles\Images\im2.jpg" />
+    <None Remove="StaticFiles\Images\im3.jpg" />
+    <None Remove="StaticFiles\Images\im5.jpg" />
+    <None Remove="StaticFiles\Images\img1.jpg" />
+    <None Remove="StaticFiles\Images\picture.png" />
+    <None Remove="Views\download %281%29.jfif" />
+    <None Remove="Views\download %283%29.jfif" />
+    <None Remove="Views\download %284%29.jfif" />
+    <None Remove="Views\download.jfif" />
+    <None Remove="Views\im1.jpg" />
+    <None Remove="Views\im2.jpg" />
+    <None Remove="Views\im3.jpg" />
+    <None Remove="Views\im5.jpg" />
+    <None Remove="Views\images %282%29.jfif" />
+    <None Remove="Views\img1.jpg" />
+    <None Remove="Views\picture.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="StaticFiles\Images\icons8-last-100.png" />
+    <Resource Include="StaticFiles\Images\icons8-pause-button-100.png" />
+    <Resource Include="StaticFiles\Images\icons8-play-button-circled-90.png" />
+    <Resource Include="StaticFiles\Images\icons8-previous-100.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.0.9" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="StaticFiles\Images\icons8-go-back-80.png" />
+    <Resource Include="StaticFiles\Images\icons8-list-view-100.png" />
+    <Resource Include="StaticFiles\Images\icons8-widescreen-52.png" />
+    <Resource Include="StaticFiles\Images\im1.jpg" />
+    <Resource Include="StaticFiles\Images\im2.jpg" />
+    <Resource Include="StaticFiles\Images\im3.jpg" />
+    <Resource Include="StaticFiles\Images\im5.jpg" />
+    <Resource Include="StaticFiles\Images\img1.jpg" />
+    <Resource Include="StaticFiles\Images\picture.png" />
+  </ItemGroup>
+
+</Project>
